@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+nav .nav-link:hover {
+    color: #ffc107;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #0062E6;
+}
+
+.project {
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#skills ul {
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+footer p {
+    margin: 0;
+}
